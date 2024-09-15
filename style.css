@@ -1,0 +1,345 @@
+body {
+    margin: 0%;
+}
+
+* {
+    text-decoration: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.4% 2% 0.1% 2%;
+}
+
+.logo {
+    height: 50px;
+}
+
+.brand_name {
+    color: #64275B;
+    margin-top: 15px;
+}
+
+.nav_container {
+    display: flex;
+    gap: 15px;
+}
+
+button.a {
+    background-color: #64275B;
+    border: none;
+    padding: 5px 20px;
+    height: 30px;
+    border-radius: 999px;
+    color: white;
+}
+
+button.b {
+    border-color: #64275B;
+    padding: 5px 20px;
+    height: 30px;
+    border-radius: 999px;
+    color: #64275B;
+}
+
+.hero {
+    background-image: url('./images/flags-france.jpg');
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.hero_text {
+    width: 35%;
+    text-align: center;
+    padding-left: 32%;
+    margin: 8px;
+}
+
+button.enroll_now {
+    background-color: #64275B;
+    border: none;
+    padding: 5px 8px;
+    height: 30px;
+    width: 10%;
+    border-radius: 999px;
+    color: white;
+    margin-left: 45%; 
+}
+
+h1.hero_text {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  color: white;
+}
+
+p.hero_text {
+    font-family: "Lato", sans-serif;
+    color: white;
+    font-size: 20px; 
+}
+
+.intro {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  color: #64275B;
+  text-align: center;
+} 
+
+.pricing_section {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.box {
+    background-color: purple;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    border-radius: 8%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 30px;
+}
+
+.learn_more_one, .learn_more_two{
+    margin-top: 14px;
+}
+
+.learn_more_three {
+    margin-top: 28px;
+}
+
+.link {
+    border: 0;
+    padding: 5px 20px;
+    min-height: 30px;
+    border-radius: 999px;
+    color: #64275B;
+}
+
+.feature_section {
+    background-image: url('./images/pexels-pixabay-2363.jpg');
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -50px;
+    background-color: grey;
+    background-blend-mode: multiply;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.feature {
+    align-self: center;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+}
+
+.feature_icons {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.meet_the_team_section {
+    text-align: center;
+}
+
+.team {
+    color: #64275B;
+}
+
+.meet_team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    width: 48%;
+    margin: 8px auto;
+}
+
+.meet {
+    height: 300px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.social_media_icons {
+    height: 30px;
+    margin: 20px 15px;
+}
+
+.footer_logo {
+    margin: 10px 15px;
+}
+
+@media screen and (min-width:319px) and (max-width:768px) {
+    .logo{
+        height: 40px;
+    }
+    
+    .brand_name{
+        font-size: 12px;
+    }
+
+    .nav_container{
+        gap: 8px;
+    }
+
+    .a, .b{
+        margin-top: 4px;
+        font-size: 10px;
+        height: 15px;
+    }
+
+    .hero{
+        height: 350px;
+        width: 100%;
+    } 
+
+    h1.hero_text{
+        font-size: 30px;
+    }
+
+    p.hero_text{
+        font-size: 12px;
+    }
+
+    button.enroll_now {
+        padding: 10px;
+        text-align: center;
+        height: 40px;
+        font-size: 8px;
+        margin-bottom: 25px;
+    }
+
+    .intro{
+        font-size: 25px;
+    }
+
+    .box {
+        background-color: purple;
+        width: 120px;
+        height: 230px;
+        font-size: 10px;
+        padding: 30px;
+    }
+
+    .pricing_section{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .feature_section{
+        height: 350px;
+        background-size: 150vh;
+        background-position: -25vh -15vw;
+    }
+
+    .feature, .feature_icons{
+        height: 30px;
+        font-size: 8px;
+    }
+
+    .team {
+        font-size: 25px;
+    }
+
+    .meet_team{
+        flex-direction: column;
+        align-content: center;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width:1081px) {
+    .a, .b{
+        margin-top: 8px;
+    }
+
+    h1.hero_text{
+        font-size: 80px;
+    }
+
+    p.hero_text{
+        font-size: 20px;
+    }
+
+    button.enroll_now{
+        font-size: 10px;
+    }
+
+    .intro {
+        font-size: 30px;
+    }
+
+    .box {
+        background-color: purple;
+        width: 120px;
+        height: 230px;
+        font-size: 10px;
+        padding: 30px;
+    }
+
+    .feature_section {
+        height: 450px;
+    }
+
+    .meet_team{
+        flex-direction: column;
+        align-content: center;
+        gap: 10px;
+    }
+        
+}
+
+@media screen and (min-width:770px) and (max-width:1099px) {
+    .meet_team {
+        flex-direction: row;
+    }
+
+}
+
+@media screen and (min-width:1100px) and (max-width:1300px) {
+    .meet_team{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:1640px) {
+    .meet{
+        height: 250px;
+    }
+}
