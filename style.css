@@ -10,6 +10,13 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1.4% 2% 0.1% 2%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background: white; 
+    z-index: 1000;
 }
 
 .logo {
@@ -44,6 +51,7 @@ button.b {
 }
 
 .hero {
+    padding-top: 60px;
     background-image: url('./images/flags-france.jpg');
     height: 650px;
     width: 100%;
